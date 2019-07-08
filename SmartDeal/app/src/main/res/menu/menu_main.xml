@@ -1,0 +1,33 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="com.example.smartdeal.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/actionHome"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:orderInCategory="100"
+                android:title="Home"
+                app:showAsAction="never" />
+    <item
+            android:id="@+id/action_woman"
+            android:orderInCategory="100"
+            android:title="Woman"
+            android:icon="@drawable/ic_shop_black_24dp"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_man"
+            android:orderInCategory="100"
+            android:title="Man"
+            android:icon="@drawable/ic_shop_black_24dp"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_kids"
+            android:orderInCategory="100"
+            android:title="Kids"
+            android:icon="@drawable/ic_shop_black_24dp"
+            app:showAsAction="never"/>
+
+    </group>
+</menu>

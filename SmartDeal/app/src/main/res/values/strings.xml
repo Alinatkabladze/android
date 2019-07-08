@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartDeal</string>
+    <string name="facebook_application_id" translatable="false">2340777299543799</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2340777299543799</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+
+</resources>
